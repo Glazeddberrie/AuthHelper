@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/create_entry"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lbl_Title3"
+        android:layout_width="284dp"
+        android:layout_height="46dp"
+        android:text="AuthHelper"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="280dp"
+        android:layout_height="31dp"
+        android:text="Enter the service name:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_servName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.992" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="31dp"
+        android:text="Enter your password:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_passServ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="250dp"
+        android:layout_height="31dp"
+        android:text="Enter your password again:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_passServValid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.267"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.994" />
+
+    <EditText
+        android:id="@+id/txt_servDesc"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="twotteraccount123"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txt_passServ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_Title4"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <Button
+        android:id="@+id/btn_createServ"
+        android:layout_width="165dp"
+        android:layout_height="66dp"
+        android:text="Create entry"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_passServValid"
+        app:layout_constraintVertical_bias="0.229" />
+
+    <EditText
+        android:id="@+id/txt_passServValid"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="236dp"
+        android:ems="10"
+        android:hint="verysecretpass123"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txt_servName"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="32dp"
+        android:ems="10"
+        android:hint="Twotter"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txt_passServ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_Title4"
+        app:layout_constraintVertical_bias="0.559" />
+
+    <EditText
+        android:id="@+id/txt_passServ"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="verysecretpass123"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/txt_passServValid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="200dp"
+        android:layout_height="31dp"
+        android:text="Enter you username:"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt_servDesc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_servName"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <TextView
+        android:id="@+id/txt_errorTextEntry"
+        android:layout_width="286dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="12dp"
+        android:text="ayuda"
+        android:textColor="#FF0505"
+        android:textSize="18sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_Title4"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <TextView
+        android:id="@+id/lbl_Title4"
+        android:layout_width="286dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="588dp"
+        android:text="New Entry"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_Title3"
+        app:layout_constraintVertical_bias="0.008" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
