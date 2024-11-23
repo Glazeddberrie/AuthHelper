@@ -27,6 +27,11 @@ AuthHelper is a secure and easy-to-use password manager that helps users store a
 
 ### Clone the Repository
 
-```bash
 git clone https://github.com/yourusername/authhelper.git
 cd authhelper
+
+### Releases
+
+Download the latest release
+
+https://github.com/Glazeddberrie/AuthHelper/releases/tag/alpha
